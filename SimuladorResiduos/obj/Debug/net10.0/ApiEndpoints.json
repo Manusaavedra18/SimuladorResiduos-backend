@@ -1,0 +1,38 @@
+[
+  {
+    "ContainingType": "SimuladorResiduos.Controllers.SimulacionController",
+    "Method": "Ejecutar",
+    "RelativePath": "api/simulacion/ejecutar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "solicitud",
+        "Type": "SimuladorResiduos.Requests.SolicitudSimulacion",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "SimuladorResiduos.Dtos.RespuestaSimulacionFront",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "SimuladorResiduos.Controllers.SimulacionController",
+    "Method": "Test",
+    "RelativePath": "api/simulacion/test",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
