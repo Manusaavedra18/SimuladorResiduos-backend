@@ -1,6 +1,0 @@
-@SimuladorResiduos_HostAddress = http://localhost:5112
-
-GET {{SimuladorResiduos_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
